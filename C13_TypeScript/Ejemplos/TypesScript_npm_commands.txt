@@ -1,0 +1,13 @@
+tsc -v (dice la version que tenemos )
+npm install -g typescript
+tsc app.ts (nombre del archivo que queremos transpilar)
+tsc app.ts -watch (abreviado es -w)
+tsc *.ts -watch (algunos comandos pueden no funcionar, lo solucionamos cambiando a git bash u otro)
+tsc app app2 app3 --outFile app.js (auto genera el archivo js en un mismo archivo en el orden pasado)
+tsc --init (crea un Json de configuracion)
+tsc --target es5 (app+nombre del archivo ) soluciona error solo disponible cuando targetea ecmascript5
+
+
+npm init -y
+npm install jquery
+npm install @types/jquery
